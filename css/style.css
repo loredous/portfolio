@@ -2061,7 +2061,10 @@ ul {
 
 .img-fluid {
 	float: left;
-	width: 300px;
+	max-width: 300px;
+	display: block;
+	width: auto;
+	height: auto;
 }
 
 span {
