@@ -110,56 +110,56 @@ export const projects = {
 export const certifications = {
   securityCerts: [
     {
-      certName: "EC-Council CEH",
+      projectName: "EC-Council CEH",
       image: "images/CEH_Badge.png",
       summary:
         "A Certified Ethical Hacker is a skilled professional who understands and knows how to look for weaknesses and vulnerabilities in target systems and uses the same knowledge and tools as a malicious hacker, but in a lawful and legitimate manner to assess the security posture of a target system(s). The CEH credential certifies individuals in the specific network security discipline of Ethical Hacking from a vendor-neutral perspective.",
-      link: "https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/",
-      areas: ["Penetration Testing", "Ethical Hacking", "Cloud Security", "Cryptography", "Scanning and Enumeration"],
+      preview: "https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/",
+      techStack: ["Penetration Testing", "Ethical Hacking", "Cloud Security", "Cryptography", "Scanning and Enumeration"],
     },
     {
-      certName: "EC-Council CHFI",
+      projectName: "EC-Council CHFI",
       image: "images/CHFI_Badge.png",
       summary:
         "A CHFI is a skilled professional trained in the application of computer investigation and analysis techniques in the interests of determining potential legal evidence. CHFI certified professionals are aware of legally sound detailed methodological approach to computer forensics and evidence analysis.",
-      link: "https://www.eccouncil.org/train-certify/computer-hacking-forensic-investigator-chfi/",
-      areas: ["Evidence Handling", "Computer Forensics", "Cyberlaw",],
+      preview: "https://www.eccouncil.org/train-certify/computer-hacking-forensic-investigator-chfi/",
+      techStack: ["Evidence Handling", "Computer Forensics", "Cyberlaw",],
     }
   ],
   platformCerts: [
     {
-      certName: "Certified Kubernetes Application Developer",
+      projectName: "Certified Kubernetes Application Developer",
       image: "images/CKAD_Badge.png",
       summary:
         "The Certified Kubernetes Application Developer (CKAD) can design, build and deploy cloud-native applications for Kubernetes. A CKAD can define application resources and use Kubernetes core primitives to create/migrate, configure, expose and observe scalable applications.",
-      link: "https://training.linuxfoundation.org/certification/certified-kubernetes-application-developer-ckad/",
-      areas: ["Kubernetes", "Conatainers", "Cloud Native Architecture"],
+      preview: "https://training.linuxfoundation.org/certification/certified-kubernetes-application-developer-ckad/",
+      techStack: ["Kubernetes", "Conatainers", "Cloud Native Architecture"],
     },
     {
-      certName: "VMware VCP-DCV",
+      projectName: "VMware VCP-DCV",
       image: "images/VCP_Badge.png",
       summary:
         "The VCP-DCV certification validates candidate skills to implement, manage, and troubleshoot a vSphere infrastructure, using best practices to provide a powerful, flexible, and secure foundation for business agility that can accelerate the transformation to cloud computing.",
-      link: "https://www.vmware.com/learning/certification/vcp-dcv.html",
-      areas: ["VMware vSphere", "Virtual Machines"],
+      preview: "https://www.vmware.com/learning/certification/vcp-dcv.html",
+      techStack: ["VMware vSphere", "Virtual Machines"],
     }
   ],
   otherCerts: [
     {
-      certName: "Red Hat Certified Systems Administrator",
+      projectName: "Red Hat Certified Systems Administrator",
       image: "images/RHCSA_Badge.jpg",
       summary:
         "A Red Hat Certified System Administrator (RHCSA®) is able to perform the core system administration skills required in Red Hat Enterprise Linux environments.",
-      link: "https://www.redhat.com/en/services/certification/rhcsa",
-      areas: ["Linux", "Red Hat", "Systems Administration"],
+      preview: "https://www.redhat.com/en/services/certification/rhcsa",
+      techStack: ["Linux", "Red Hat", "Systems Administration"],
     },
     {
-      certName: "SUSE Certified Adminstrator",
+      projectName: "SUSE Certified Adminstrator",
       image: "images/SCA_Badge.png",
       summary:
         "The SCA certification validates a candidate's fundamental knowledge of the Linux operating system and ability to properly administer SLES 15 at a standard sysadmin level. ",
-      link: "https://www.redhat.com/en/services/certification/rhcsa",
-      areas: ["Linux", "SUSE", "Systems Administration"],
+      preview: "https://www.redhat.com/en/services/certification/rhcsa",
+      techStack: ["Linux", "SUSE", "Systems Administration"],
     }
   ],
 };
@@ -202,7 +202,7 @@ export const experience = [
       "Championed internal adoption of InnerSource and Open Source processes and policies for relevant product offerings"
     ],
     tags: ["Python", "Supply Chain Security", "Compliance", "Kubernetes", "CI/CD", "DevOps"],
-    icon: "fa-brands fa-python",
+    icon: "fa fa-brands fa-python",
   },
   {
     title: "VMware",
@@ -215,7 +215,7 @@ export const experience = [
       "Drove team achievement of 95%+ NPS on customer satisfaction surveys",
     ],
     tags: ["VMware Horizon VDI", "Technical Support"],
-    icon: "fa-regular fa-user-group-crown",
+    icon: "fa fa-regular fa-user-group-crown",
   },
   {
     title: "Zoll Data",
@@ -227,7 +227,7 @@ export const experience = [
       "Headed team to redefine source control and build processes, leading to measurable decrease in lost time due to build issues"
     ],
     tags: ["C#", "Agile Scrum", "ASP.NET", "Automated Testing"],
-    icon: "fa-solid fa-heart-pulse",
+    icon: "fa fa-solid fa-heart-pulse",
   },
 ];
 
@@ -249,7 +249,7 @@ export const education = [
       "Cloud Security",
       "Security Compliance",
     ],
-    icon: "fa-solid fa-diploma",
+    icon: "fa fa-solid fa-user-graduate",
   },
   {
     title: "Bachelors in Networking and Communications Management",
@@ -259,7 +259,7 @@ export const education = [
       "Successfully completed my Bachelors degree from DeVry University, graduating in October of 2015",
     ],
     tags: ["Network Design", "VoIP Communications", "Wireless Network Design", "Advanced Networking Protocols", "Advanced Routing Protocols"],
-    icon: "fa-solid fa-diploma",
+    icon: "fa fa-solid fa-user-graduate",
   },
 ];
 
