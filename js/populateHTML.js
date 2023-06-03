@@ -468,9 +468,9 @@ populateProjects(softwareProjects, "software-projects");
 populateProjects(hardwareProjects, "hardware-projects");
 populateProjects(openSourceCommunities, "open-source");
 
-populateCertifications(securityCerts, "security-certs");
-populateCertifications(platformCerts, "platform-certs");
-populateCertifications(otherCerts, "other-certs");
+populateProjects(securityCerts, "security-certs");
+populateProjects(platformCerts, "platform-certs");
+populateProjects(otherCerts, "other-certs");
 
 populateTalks(talks, "talks")
 
