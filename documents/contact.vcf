@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Banker;Jeremy;;;
+FN:Jeremy Banker
+KEY;PGP;https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xfcd448b167e1607627fad3f9531a8596fd56f303
+TITLE:Security Software Engineer
+TEL;TYPE=cell,+1 (303) 808-6409
+ADR;TYPE=WORK:;;;Longmont;CO;80504;USA
+URL:https://www.loredous.net
+EMAIL:loredous@loredous.net
+END:VCARD
