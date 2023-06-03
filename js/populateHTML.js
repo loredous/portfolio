@@ -276,7 +276,7 @@ function populateCertifications(items, id) {
   a.append(divResumeItem);
 
   let divCertificationCard = document.createElement("div");
-  divCertificationCard.className = "certification-card";
+  divCertificationCard.className = "project-card";
   divCertificationCard.append(a);
 
   let li = document.createElement("li");
