@@ -72,7 +72,7 @@ export const projects = {
   softwareProjects: [
     {
       projectName: "Ham GUI / HamPI",
-      image: "images/HamPi.jpg",
+      image: "images/HamPI.jpg",
       summary:
         "Touch-friendly UI application for management of an amateur radio station, with a focus on service management for emergency digital communications operation.",
       preview: "https://github.com/loredous/ham-gui",

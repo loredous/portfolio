@@ -280,7 +280,7 @@ function populateCertifications(items, id) {
   divCertificationCard.append(a);
 
   let li = document.createElement("li");
-  li.append(divProjectCard);
+  li.append(divCertificationCard);
 
   let hr = document.createElement("hr");
 
