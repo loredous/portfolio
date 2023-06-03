@@ -303,10 +303,10 @@ export const footer = [
       },
       {
         text: "Resume",
-        link: "documents/contact.vcf",
+        link: "documents/JeremyBanker-06032023.pdf",
       },
       {
-        text: "Contact Card",
+        text: "Contact Information",
         link: "documents/contact.vcf",
       },
     ],
