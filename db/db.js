@@ -155,7 +155,7 @@ export const certifications = {
     },
     {
       certName: "SUSE Certified Adminstrator",
-      image: "images/SCA_Badge.jpg",
+      image: "images/SCA_Badge.png",
       summary:
         "The SCA certification validates a candidate's fundamental knowledge of the Linux operating system and ability to properly administer SLES 15 at a standard sysadmin level. ",
       link: "https://www.redhat.com/en/services/certification/rhcsa",

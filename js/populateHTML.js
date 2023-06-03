@@ -85,7 +85,7 @@ function populateTalks(items, id) {
     li.append(divProjectCard);
     talkDesign.append(li);
 
-    if (i !== count - 1) {
+    if (i !== items.length - 1) {
       talkDesign.append(document.createElement("hr"));
     }
   }
