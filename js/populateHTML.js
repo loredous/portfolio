@@ -56,8 +56,7 @@ function populateTalks(items, id) {
     const p = document.createElement("p");
     p.className = "talk-description";
     const html = items[i].description;
-    const [, doc] = /<p>(.*?)<\/p>/g.exec(html) || [];
-    p.innerHTML = doc;
+    p.innerHTML = html;
 
     const divSpan = document.createElement("div");
     for (const category of items[i].categories) {
