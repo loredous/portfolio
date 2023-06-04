@@ -61,7 +61,7 @@ function populateTalks(items, id) {
     const divSpan = document.createElement("div");
     for (const category of items[i].categories) {
       const span = document.createElement("span");
-      span.className = "badge badge-secondary";
+      span.className = "badge rounded-pill";
       span.innerHTML = category;
       divSpan.append(span);
     }
@@ -211,7 +211,7 @@ function populateProjects(items, id) {
     divSpan.innerHTML = "";
     for (let k = 0; k < items[i].techStack.length; k++) {
       let span = document.createElement("span");
-      span.className = "badge badge-secondary";
+      span.className = "badge rounded-pill";
       span.innerHTML = items[i].techStack[k];
       divSpan.append(span);
     }
@@ -265,7 +265,7 @@ function populateExp_Edu(items, id) {
     let divTags = document.createElement("div");
     for (let j = 0; j < items[i].tags.length; j++) {
       let spanTags = document.createElement("span");
-      spanTags.className = "badge badge-secondary";
+      spanTags.className = "badge rounded-pill";
       spanTags.innerHTML = items[i].tags[j];
       divTags.append(spanTags);
     }

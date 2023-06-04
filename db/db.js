@@ -176,7 +176,7 @@ export const talks = [
     title: "(Upcoming: 6/8/2023) Adding Continuous Inspection to Your CI/CD Pipelines with Build Inspector Open Source",
     link: "https://iplanit.swoogo.com/RMISC2023/session/1408933/a1-adding-continuous-inspection-to-your-cicd-pipelines-with-build-inspector-open-source",
     image: "https://assets.swoogo.com/uploads/medium/119020-5aafec2c5e08d.jpg",
-    description: "Automatically extract important security related information from all of your CI/CD pipeline logs, that typically only get used to debug pipeline issues, with VMware's open-source Build Inspector tooling. By looking at the actions being taken in the logs, and the output from each step in your pipeline, the open source Build Inspector software is able to rapidly identify potential sources of supply chain compromise, along with providing valuable Software Bill of Material information about dependencies that are only used at build/test time, but that could become vectors for an attack. In this session we will walk through why it's important to monitor your CI build pipelines, how to get started extracting dependency and risk information from your CI build logs, and how this process can be scaled to meet the needs of an entire enterprise." ,
+    description: "Introduction and use cases for the Build Inspector open source service." ,
     categories: ["Supply Chain Security", "Build Inspector", "Open Source"]
   },
   {
@@ -202,7 +202,7 @@ export const experience = [
       "Championed internal adoption of InnerSource and Open Source processes and policies for relevant product offerings"
     ],
     tags: ["Python", "Supply Chain Security", "Compliance", "Kubernetes", "CI/CD", "DevOps"],
-    icon: "fa fa-brands fa-python",
+    icon: "fa-brands fa-python",
   },
   {
     title: "VMware",
@@ -215,7 +215,7 @@ export const experience = [
       "Drove team achievement of 95%+ NPS on customer satisfaction surveys",
     ],
     tags: ["VMware Horizon VDI", "Technical Support"],
-    icon: "fa fa-regular fa-user-group-crown",
+    icon: "fa-regular fa-user-group-crown",
   },
   {
     title: "Zoll Data",
@@ -227,7 +227,7 @@ export const experience = [
       "Headed team to redefine source control and build processes, leading to measurable decrease in lost time due to build issues"
     ],
     tags: ["C#", "Agile Scrum", "ASP.NET", "Automated Testing"],
-    icon: "fa fa-solid fa-heart-pulse",
+    icon: "fa-solid fa-heart-pulse",
   },
 ];
 
@@ -249,7 +249,7 @@ export const education = [
       "Cloud Security",
       "Security Compliance",
     ],
-    icon: "fa fa-solid fa-user-graduate",
+    icon: "fa-solid fa-user-graduate",
   },
   {
     title: "Bachelors in Networking and Communications Management",
@@ -259,7 +259,7 @@ export const education = [
       "Successfully completed my Bachelors degree from DeVry University, graduating in October of 2015",
     ],
     tags: ["Network Design", "VoIP Communications", "Wireless Network Design", "Advanced Networking Protocols", "Advanced Routing Protocols"],
-    icon: "fa fa-solid fa-user-graduate",
+    icon: "fa-solid fa-user-graduate",
   },
 ];
 
