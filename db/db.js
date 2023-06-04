@@ -176,7 +176,7 @@ export const talks = [
     title: "(Upcoming: 6/8/2023) Adding Continuous Inspection to Your CI/CD Pipelines with Build Inspector Open Source",
     link: "https://iplanit.swoogo.com/RMISC2023/session/1408933/a1-adding-continuous-inspection-to-your-cicd-pipelines-with-build-inspector-open-source",
     image: "https://assets.swoogo.com/uploads/medium/119020-5aafec2c5e08d.jpg",
-    description: "Introduction and use cases for the Build Inspector open source service." ,
+    description: "Introduction and use cases for the Build Inspector open source service. Learn how you can use the open source Build Inspector service from VMware to inspect your build pipeline logs to extract build and test dependencies, along with identifying signs of potential risk or compromise." ,
     categories: ["Supply Chain Security", "Build Inspector", "Open Source"]
   },
   {
@@ -215,7 +215,7 @@ export const experience = [
       "Drove team achievement of 95%+ NPS on customer satisfaction surveys",
     ],
     tags: ["VMware Horizon VDI", "Technical Support"],
-    icon: "fa-regular fa-user-group-crown",
+    icon: "fa-solid fa-user-group",
   },
   {
     title: "Zoll Data",

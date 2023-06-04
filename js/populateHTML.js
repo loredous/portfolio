@@ -282,6 +282,7 @@ function populateExp_Edu(items, id) {
     divTimelineEntryInner.className = "timeline-entry-inner";
     divTimelineEntryInner.append(divTimelineIcon);
     divTimelineEntryInner.append(divTimelineLabel);
+    
 
     let article = document.createElement("article");
     article.className = "timeline-entry animate-box";
@@ -290,8 +291,12 @@ function populateExp_Edu(items, id) {
     mainContainer.append(article);
   }
 
+  let iFa = document.createElement("i");
+  iFa.className = "fa-solid fa-ellipsis";
+  
   let divTimelineIcon = document.createElement("div");
   divTimelineIcon.className = "timeline-icon color-2";
+  divTimelineIcon.append(iFa);
 
   let divTimelineEntryInner = document.createElement("div");
   divTimelineEntryInner.className = "timeline-entry-inner";
@@ -338,6 +343,7 @@ function populateLinks(items, id) {
         }
         if (data.func) {
           a.setAttribute("onclick", data.func);
+          a.href = "#"
         }
         a.innerHTML = data.text;
 

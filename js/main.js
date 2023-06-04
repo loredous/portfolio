@@ -289,7 +289,8 @@ Accordion.prototype.dropdown = function (e) {
   }
 };
 
-var accordion = new Accordion($("#accordion"), false);
+var projectaccordion = new Accordion($("#project-accordion"), false);
+var certsaccordion = new Accordion($("#certs-accordion"), false);
 
 function enableDarkMode() {
   document.body.classList.toggle("dark-mode");
