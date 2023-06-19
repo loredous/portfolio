@@ -190,7 +190,7 @@ export const talks = [
     title: "(Upcoming: 8/11/2023) Build Inspector at Defcon 31 Demolab",
     link: "https://defcon.org/html/defcon-31/dc-31-index.html",
     image: "images/defcon31-logo-gradient.webp",
-    description: "Come see Build Inspector open source <b>LIVE</b> at Defconf 31." ,
+    description: "Come see Build Inspector open source <b>LIVE</b> at Defcon 31." ,
     categories: ["Supply Chain Security", "Build Inspector", "Open Source"]
   }
 ]
