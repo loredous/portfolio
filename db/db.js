@@ -173,17 +173,24 @@ export const talks = [
     categories: ["Amateur Radio", "Packet Radio", "Winlink"]
   },
   {
-    title: "(Upcoming: 6/8/2023) Adding Continuous Inspection to Your CI/CD Pipelines with Build Inspector Open Source",
+    title: "Adding Continuous Inspection to Your CI/CD Pipelines with Build Inspector Open Source",
     link: "https://iplanit.swoogo.com/RMISC2023/session/1408933/a1-adding-continuous-inspection-to-your-cicd-pipelines-with-build-inspector-open-source",
     image: "https://assets.swoogo.com/uploads/medium/119020-5aafec2c5e08d.jpg",
     description: "Introduction and use cases for the Build Inspector open source service. Learn how you can use the open source Build Inspector service from VMware to inspect your build pipeline logs to extract build and test dependencies, along with identifying signs of potential risk or compromise." ,
     categories: ["Supply Chain Security", "Build Inspector", "Open Source"]
   },
   {
-    title: "(Upcoming: 8/9/2023) Build Inspector at BlackHat Arsenal",
+    title: "(Upcoming: 8/9/2023) Build Inspector at BlackHat USA Arsenal 2023",
     link: "https://www.blackhat.com/us-23/arsenal-overview.html",
     image: "https://www.blackhat.com/images/logo.png",
     description: "Come see Build Inspector open source <b>LIVE</b> at BlackHat Arsenal USA 2023." ,
+    categories: ["Supply Chain Security", "Build Inspector", "Open Source"]
+  },
+  {
+    title: "(Upcoming: 8/11/2023) Build Inspector at Defcon 31 Demolab",
+    link: "https://defcon.org/html/defcon-31/dc-31-index.html",
+    image: "images/defcon31-logo-gradient.webp",
+    description: "Come see Build Inspector open source <b>LIVE</b> at Defconf 31." ,
     categories: ["Supply Chain Security", "Build Inspector", "Open Source"]
   }
 ]
