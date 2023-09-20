@@ -71,6 +71,14 @@ export const projects = {
   ],
   softwareProjects: [
     {
+      projectName: "UnifiOS DNS Manager",
+      image: "images/UnifiOSDNS.png",
+      summary:
+        "Application to allow easy management and persistence of static DNS records with UnifiOS network hardware.",
+      preview: "https://github.com/loredous/unifios-dns-manager",
+      techStack: ["Python", "GUI", "Angular Clarity"],
+    },
+    {
       projectName: "Ham GUI / HamPI",
       image: "images/HamPI.jpg",
       summary:
@@ -180,17 +188,17 @@ export const talks = [
     categories: ["Supply Chain Security", "Build Inspector", "Open Source"]
   },
   {
-    title: "(Upcoming: 8/9/2023) Build Inspector at BlackHat USA Arsenal 2023",
+    title: "Build Inspector at BlackHat USA Arsenal 2023",
     link: "https://www.blackhat.com/us-23/arsenal-overview.html",
     image: "https://www.blackhat.com/images/logo.png",
-    description: "Come see Build Inspector open source <b>LIVE</b> at BlackHat Arsenal USA 2023." ,
+    description: "Demonstration and discussion of Build Inspector Open Source tooling at BlackHat Arsenal" ,
     categories: ["Supply Chain Security", "Build Inspector", "Open Source"]
   },
   {
-    title: "(Upcoming: 8/11/2023) Build Inspector at Defcon 31 Demolab",
+    title: "Build Inspector at Defcon 31 Demolab",
     link: "https://defcon.org/html/defcon-31/dc-31-index.html",
     image: "images/defcon31-logo-gradient.webp",
-    description: "Come see Build Inspector open source <b>LIVE</b> at Defcon 31." ,
+    description: "Demonstration and discussion of Build Inspector Open Source tooling at DefCon Demolabs" ,
     categories: ["Supply Chain Security", "Build Inspector", "Open Source"]
   }
 ]
@@ -199,8 +207,9 @@ export const experience = [
   {
     title: "VMware",
     duration: "May 2018 - Present",
-    subtitle: "Software Engineer",
+    subtitle: "Lead Software Engineer",
     details: [
+      "Lead project to identify build pipeline security needs and provide solutions for mitigation or elimination, including creation of multiple open-source tools",
       "Full-lifecycle handling of custom software solutions for VMware IT Security and Resiliency organization",
       "Product Owner and developer for internal and open source offering designed to identify consumed dependencies and potential sources of risk in CI/CD pipelines and software builds",
       "Architected and implemented cloud-deployed pipeline handling collection, filtering and transport of ~14TB daily log flows into on-premise SIEM with average 99% uptime",
@@ -310,7 +319,7 @@ export const footer = [
       },
       {
         text: "Resume",
-        link: "documents/JeremyBanker-06032023.pdf",
+        link: "documents/JeremyBanker-09202023.pdf",
       },
       {
         text: "Contact Information",
