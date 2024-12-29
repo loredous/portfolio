@@ -71,6 +71,14 @@ export const projects = {
   ],
   softwareProjects: [
     {
+      projectName: "Tommyknocker",
+      image: "https://github.com/loredous/tommyknocker/raw/main/images/logo.png",
+      summary:
+        "Tommyknocker is a platform designed to allow for continuous, automated testing and validation of various security controls.",
+      preview: "https://github.com/vmware-labs/build-inspector",
+      techStack: ["Python", "Security Control Validation", "Containers", "Automation"]
+    },
+    {
       projectName: "UnifiOS DNS Manager",
       image: "images/UnifiOSDNS.png",
       summary:
@@ -173,6 +181,20 @@ export const certifications = {
 };
 
 export const talks = [
+  {
+    title: "Tommyknocker at DefCon 32 Demolabs",
+    link: "https://defcon.org/html/defcon-32/dc-32-demolabs.html",
+    image: "images/dc32-logo-2color-halftonegradient.webp",
+    description: "Demonstration and discussion of Tommyknocker at DefCon Demolabs" ,
+    categories: ["Open Source", "Security Automation", "Security Control Validation"]
+  },
+  {
+    title: "Enabling Automated Security Control Validation with Tommyknocker Open Source",
+    link: "https://iplanit.swoogo.com/rmisc2024/session/2051120/w4-2b.-enabling-automated-security-control-validation-with-tommyknocker-open-source",
+    image: "https://assets.swoogo.com/uploads/medium/119020-5aafec2c5e08d.jpg",
+    description: "Tommyknocker is an open source tool designed to allow for simple but powerful automation of continuous security control validation. Whether you are confirming critical east-west network security controls, validating the continued functionality and visibility of IPS/IDS services, or confirming that configuration changes have not compromised existing controls, Tommyknocker can help! Tommyknocker allows for test cases to be as simple as sending a single network request, or as complex as imitating a full scan and exploit cycle from an attacker. With the ability to also tie expected alerts and indicators to a test, you can confirm not only that the potential attack was stopped, but also that your SOC will know if and when the real thing happens." ,
+    categories: ["Open Source", "Security Automation", "Security Control Validation"]
+  },
   {
     title: "Introduction to Amateur Packet Radio",
     link: "https://www.youtube.com/watch?v=Wo0MDBrOSK8#t=47s",
