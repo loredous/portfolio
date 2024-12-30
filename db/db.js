@@ -341,7 +341,7 @@ export const footer = [
       },
       {
         text: "Resume",
-        link: "documents/JeremyBanker-09202023.pdf",
+        link: "documents/JeremyBanker-12292024.pdf",
       },
       {
         text: "Contact Information",
