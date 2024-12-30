@@ -227,9 +227,21 @@ export const talks = [
 
 export const experience = [
   {
+    title: "Independent Software Engineer",
+    duration: "May 2024 - Present",
+    subtitle: "Creating and Discussing Open Source Solutions for the Community",
+    details: [
+      "Designed and created open-source security control validation tool (Tommyknocker)",
+      "Speaker at RMISC 2024 and DefCon 32",
+      "Rust workshop with John DeGoes"
+    ],
+    tags: ["Python", "Open Source", "Rust", "Security Automation"],
+    icon: "fa-brands fa-python",
+  },
+  {
     title: "VMware",
-    duration: "May 2018 - Present",
-    subtitle: "Lead Software Engineer",
+    duration: "May 2018 - May 2024",
+    subtitle: "Lead Security Software Engineer",
     details: [
       "Lead project to identify build pipeline security needs and provide solutions for mitigation or elimination, including creation of multiple open-source tools",
       "Full-lifecycle handling of custom software solutions for VMware IT Security and Resiliency organization",
