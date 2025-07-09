@@ -1,5 +1,5 @@
 export const bio = [
-  "I'm Jeremy Banker, a Senior Software Engineer at VMware, focusing on security tooling architecture, design and implementation. I have a lifelong passion for learning and am always trying to expand my horizons and keep current with modern advances.",
+  "I'm Jeremy Banker, a Senior Software Engineer at Horizon3.ai, focusing on our attack platform. I have a lifelong passion for learning and am always trying to expand my horizons and keep current with modern advances.",
   "In my free time, I am an avid amateur radio operator, working with my local county's emergency communications office. I also enjoy gardening, camping and travel.",
   "I make a point of trying to bring together the knowledge and experience from the various facets of my life, and use them to enhance the projects and products I work on. I often find that a holistic approach and a broad base of knowledge helps to reveal unconventional solutions and identify the core issues in systems.",
   "Thanks for taking the time to learn a little about me!",
@@ -22,13 +22,13 @@ export const skills = [
     title: "Platforms",
     skillName: "Kubernetes, vSphere, Docker",
     color: "4",
-    percentage: "70",
+    percentage: "85",
   },
   {
     title: "DevOps",
     skillName: "Gitlab CI, Concourse CI, Github Actions",
     color: "7",
-    percentage: "65",
+    percentage: "75",
   },
   {
     title: "Design and Visualization",
@@ -40,13 +40,13 @@ export const skills = [
     title: "Agile",
     skillName: "Scrum, Agile",
     color: "5",
-    percentage: "65",
+    percentage: "75",
   },
   {
     title: "Cloud",
     skillName: "AWS, Azure, GCP",
     color: "6",
-    percentage: "60",
+    percentage: "70",
   },
 ];
 
@@ -227,8 +227,18 @@ export const talks = [
 
 export const experience = [
   {
+    title: "Horizon3.ai",
+    duration: "March 2025 - Present",
+    subtitle: "Senior Software Engineer - Attack",
+    details: [
+      "Optimized internal hash cracking platform to increase hit rate by 400% while lowering costs by 25%"
+    ],
+    tags: ["Python", "DevOps", "Rust", "Security Automation"],
+    icon: "fa-brands fa-python",
+  },
+  {
     title: "Independent Software Engineer",
-    duration: "May 2024 - Present",
+    duration: "May 2024 - March 2025",
     subtitle: "Creating and Discussing Open Source Solutions for the Community",
     details: [
       "Designed and created open-source security control validation tool (Tommyknocker)",
